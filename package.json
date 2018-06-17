@@ -6,10 +6,10 @@
     "watch": "watchify -g ejs-browserify-transformer -g require-globify load.js -o loaded.js -v"
   },
   "dependencies": {
-    "express-web": "git://github.com/starterstep/express-web.git",
+    "express-web": "git://github.com/workproducts/express-web.git",
     "underscore":"1.8.3",
     "underscore.string":"3.2.3",
-    "superagent":"1.8.2"
+    "superagent":"^3.8.3"
   },
   "devDependencies": {
     "ejs-browserify-transformer": "0.0.3",
